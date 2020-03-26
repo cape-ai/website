@@ -36,9 +36,9 @@
 
     <link rel="shortcut icon" type="image/ico" href="./favicon.ico"/>
 
-    <title>Cape Town AI - Knowledge graphs</title>
+    <title>Cape AI - Enlabeler</title>
   </head>
-  <body class="bg-light">
+  <body>
 
     <!-- MODALS
     ================================================== -->
@@ -47,7 +47,7 @@
     <!-- NAVBAR
     ================================================== -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container">
+      
 
         <!-- Brand -->
         <a class="navbar-brand" href="./index.html">
@@ -248,11 +248,17 @@
                           <a class="dropdown-item" href="./enlabeler.html">
                             Enlabeler
                           </a>
-                          <a class="dropdown-item" href="./knowledgegraphs.html">
-                            Knowledge graphs
+                          <a class="dropdown-item" href="./vpi.html">
+                            Covid-19
                           </a>
-                          <a class="dropdown-item mb-5" href="./wildlife.html">
+                          <a class="dropdown-item" href="./wildlife.html">
                             Wildlife
+                          </a>
+                          <a class="dropdown-item" href="./frozenbytes.html">
+                            FrozenBytes
+                          </a>
+                          <a class="dropdown-item mb-5" href="./caffeineconnect.html">
+                            CaffeineConnect
                           </a>
 
                           <!-- Heading -->
@@ -266,6 +272,9 @@
                           </a>
                           <a class="dropdown-item" href="./supplychain.html">
                             Supply chain
+                          </a>
+                          <a class="dropdown-item" href="./customersegmentation.html">
+                            Customer segmentation
                           </a>
 
                         </div>
@@ -472,52 +481,47 @@
 
         </div>
   
-      </div>
+      
     </nav>
 
-    <!-- WELCOME
+    <!-- ABOUT
     ================================================== -->
-    <section class="pt-4 pt-md-11">
+    <section class="pt-8 pt-md-11" id="#more">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12 col-md-5 order-md-2">
-            
-            <!-- Image -->
-            <img src="assets/img/photos/network.png" class="img-fluid mb-6 mb-md-0" alt="...">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12 col-md-6 mb-5 mb-md-0">
+        
+            <!-- Images -->
+            <div class="row">
+                <img src="assets/img/photos/cc.png" alt="..." class="img-fluid rounded" data-aos="fade-right" data-aos-delay="100">
+            </div> <!-- / .row -->
 
           </div>
-          <div class="col-12 col-md-7 order-md-1">
-
+          <div class="col-12 col-md-6 col-lg-5" data-aos="fade-left">
+            
             <!-- Heading -->
-            <h1 class="display-4">
-              Knowledge graph and <br />
-              <span class="text-primary">biomedical</span> text mining
-            </h1>
+            <h2 class="font-weight-bold">
+              <span class="text-danger">Connect</span>ing Colleagues
+            </h2>
 
             <!-- Text -->
-            <p class="lead text-muted mb-0">
-              With a team of interns we are mining biomedical research papers. The data extracted via natural language processing is stored as a graph and used to model diseases and their causes.
-              Please get in touch if you would like to apply these techniques in your domain.
+            <p class="font-size-lg text-muted mb-4">
+              We are developing an Natural Language Processing (NLP) solution to intelligently connect colleagues to build great teams.
             </p>
+
+            <!-- Button -->
+            <a href="./contact.html" class="btn btn-danger">
+              Get in touch to learn more
+            </a>
 
           </div>
         </div> <!-- / .row -->
       </div> <!-- / .container -->
     </section>
 
-    <!-- SHAPE
-    ================================================== -->
-    <div class="position-relative pt-md-12">
-      <div class="shape shape-bottom shape-fluid-x svg-shim text-gray-200">
-        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"/>
-        </svg>
-      </div>
-    </div>
-
     <!-- FOOTER
     ================================================== -->
-    <footer class="py-8 py-md-11 bg-gray-200">
+    <footer class="py-8 py-md-11 bg-white">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-4 col-lg-3">
@@ -592,11 +596,6 @@
                 </a>
               </li>
               <li class="mb-3">
-                  <a href="./knowledgegraphs.html" class="text-reset">
-                    KG
-                  </a>
-                </li>
-              <li class="mb-3">
                 <a href="./wildlife.html" class="text-reset">
                   Wildlife
                 </a>
@@ -611,6 +610,11 @@
                     Supply chain
                   </a>
               </li>
+              <li class="mb-3">
+                <a href="./customersegmentation.html" class="text-reset">
+                  Customer
+                </a>
+            </li>
             </ul>
 
           </div>
